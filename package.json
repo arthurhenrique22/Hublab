@@ -15,6 +15,7 @@
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.13.4",
     "@types/node": "^20.3.0",
+    "firebase": "^9.23.0",
     "next": "12.1.5",
     "react": "18.0.0",
     "react-dom": "18.0.0",
@@ -29,8 +30,8 @@
     "@types/react-slick": "^0.23.8",
     "@typescript-eslint/eslint-plugin": "^5.20.0",
     "@typescript-eslint/parser": "^5.20.0",
-    "eslint": "8.14.0",
-    "eslint-config-next": "12.1.5",
+    "eslint": "^7.23.0",
+    "eslint-config-next": "^12.0.4",
     "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-typescript": "^2.7.1",
     "typescript": "4.6.3"

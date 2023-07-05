@@ -10,7 +10,7 @@ export const socialLinks: SocialLink[] = [
   },
   {
     name: 'Linkedln',
-    link: '',
+    link: 'https://www.linkedin.com/company/hublab-inova%C3%A7%C3%A3o-para-startups/?viewAsMember=true',
     icon: '/images/icons/linkedin.svg',
   },
 
