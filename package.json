@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "@emotion/cache": "^11.11.0",
+    "@types/json-schema": "^7.0.12",
     "@types/react": "18.0.6",
     "@types/react-scroll": "^1.8.7",
     "@types/react-slick": "^0.23.8",

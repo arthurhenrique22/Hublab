@@ -16,7 +16,7 @@ const Footer: FC = () => {
           <Grid item xs={12} md={5}>
             <Box sx={{ width: { xs: '100%', md: 360 }, mb: { xs: 3, md: 0 } }}>
               <Typography component="h2" variant="h2" sx={{ mb: 2 }}>
-                Hublab Inonvation
+                Hublab Innonvation
               </Typography>
               <Typography variant="subtitle1" sx={{ letterSpacing: 1, mb: 2 }}>
                 Onde startups, investidores, mentores e cientista se conectam para impulsionar o sucesso empresarial.

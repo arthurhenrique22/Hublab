@@ -17,6 +17,8 @@ const firebaseConfig = {
   appId: "1:290270490597:web:71d72e353564019edac90c",
   measurementId: "G-63HB1JXXSR"
 };
+
+
 firebase.initializeApp(firebaseConfig);
 
 const HomeNews: FC = () => {
@@ -39,7 +41,8 @@ const HomeNews: FC = () => {
       const database = firebase.database();
       const emailsRef = database.ref('emails');
 
-      emailsRef.child(nextId.toString()).set({
+      const newEmailId = nextId.toString();
+      emailsRef.child(newEmailId).set({
         email: email,
       });
 
