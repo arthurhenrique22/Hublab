@@ -1,19 +1,14 @@
 import React from 'react'
 import dynamic from 'next/dynamic'
 import { NextPageWithLayout } from '@/interfaces/layout'
-import { MainLayout } from '@/components/layout'
+import { MainLayout } from '@/components/main/layout'
 
-const DynamicHomeHero = dynamic(() => import('../components/home/hero'))
-const DynamicHomeSolution = dynamic(() => import('../components/home/solution'))
-const DynamicHomeMarket = dynamic(() => import('../components/home/market'))
-const DynamicHomePrivado = dynamic(() => import('../components/home/privados'))
-const DynamicHomeInstitucional = dynamic(() => import('../components/home/institucionais'))
-const DynamicHomeProduct = dynamic(() => import('../components/home/product'))
-const DynamicHomeNews = dynamic(() => import('../components/home/news'))
-
-
-
-
+const DynamicHomeHero = dynamic(() => import('../components/main/home/hero'))
+const DynamicHomeSolution = dynamic(() => import('../components/main/home/solution'))
+const DynamicHomeMarket = dynamic(() => import('../components/main/home/market'))
+const DynamicHomePrivado = dynamic(() => import('../components/main/home/privados'))
+const DynamicHomeInstitucional = dynamic(() => import('../components/main/home/institucionais'))
+const DynamicHomeProduct = dynamic(() => import('../components/main/home/product'))
 
 
 const Home: NextPageWithLayout = () => {
@@ -25,7 +20,6 @@ const Home: NextPageWithLayout = () => {
       <DynamicHomeMarket />
       <DynamicHomeInstitucional />
       <DynamicHomePrivado />
-      <DynamicHomeNews />
     </>
   )
 }

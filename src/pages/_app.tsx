@@ -27,7 +27,7 @@ const App: FC<AppPropsWithLayout> = (props: AppPropsWithLayout) => {
     <CacheProvider value={emotionCache}>
       <Head>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
-        <title>Hublab Innovation</title>
+        <title>Hubmatch</title>
       </Head>
       <MUIProvider>
         <CssBaseline />
