@@ -17,8 +17,8 @@ const HomeHero: FC = () => {
             sx={{
                 backgroundColor: 'background.paper',
                 position: 'relative',
-                pt: 12,
-                pb: { xs: 8, md: 10 },
+                pt: 4,
+                pb: { xs: 8, md: 8 },
                 textAlign: 'center',
             }}
         >
@@ -32,21 +32,21 @@ const HomeHero: FC = () => {
                         height: '100%',
                     }}
                 >
-                    <Box sx={{ mb: 3 }}>
+                    <Box sx={{ mb: 1 }}>
                         <Typography
                             component="h2"
                             sx={{
                                 position: 'relative',
                                 fontSize: { xs: 40, md: 72 },
-                                letterSpacing: 1.5,
+                                letterSpacing: 1.4,
                                 fontWeight: 'bold',
-                                lineHeight: 1.3,
+                                lineHeight: 1.2,
                             }}
                         >
                             Bem-Vindo{' '}
                         </Typography>
                     </Box>
-                    <Box sx={{ mb: 4, width: { xs: '100%', md: '70%' } }}>
+                    <Box sx={{ mb: 2, width: { xs: '100%', md: '70%' } }}>
                         <Typography sx={{ color: 'text.secondary', lineHeight: 1 }}>
                             {"A nossa plataforma HUBMATCH ajuda você a encontrar os melhores parceiros que fazem sentido para o seu negócio."}
                         </Typography>
