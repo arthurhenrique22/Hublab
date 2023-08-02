@@ -11,8 +11,8 @@ interface Props {
 const Logo: FC<Props> = ({ onClick, variant }) => {
   const isLargeScreen = useMediaQuery('(min-width: 600px)');
 
-  const imageWidth = isLargeScreen ? 80 : 50;
-  const imageHeight = isLargeScreen ? 80 : 50;
+  const imageWidth = isLargeScreen ? 70 : 50;
+  const imageHeight = isLargeScreen ? 70 : 50;
 
   return (
     <Box onClick={onClick} sx={{ display: 'flex', alignItems: 'center' }}>
