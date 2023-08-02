@@ -6,8 +6,6 @@ import dynamic from 'next/dynamic'
 
 const DynamicHomeRegister = dynamic(() => import('../components/register/home/hero'))
 
-
-
 const register: NextPageWithLayout = () => {
     return (
         <>

@@ -6,8 +6,6 @@ import dynamic from 'next/dynamic'
 
 const DynamicHomeLogin = dynamic(() => import('../components/login/home/hero'))
 
-
-
 const login: NextPageWithLayout = () => {
     return (
         <>
